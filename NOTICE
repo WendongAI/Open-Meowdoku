@@ -1,0 +1,19 @@
+Open-Meowdoku
+=============
+
+Playable browser build: https://guessingame.org/meowdoku
+
+This project documents and promotes an open, browser-playable cat-placement
+logic puzzle (one cat per row, column, and colored region; cats may not touch).
+
+Upstream game logic lineage
+---------------------------
+Adapted from MkThingsHQ/mkgame-sudoku (MimoDoku), distributed under the MIT
+License. Copyright (c) 2026 OpenFox contributors.
+https://github.com/MkThingsHQ/mkgame-sudoku
+
+Trademark / product clarity
+---------------------------
+Open-Meowdoku and Guessingame are not affiliated with Oakever Games or the
+commercial mobile app often marketed as "Meowdoku". This repo is an open
+documentation + traffic hub for the free browser version hosted on Guessingame.

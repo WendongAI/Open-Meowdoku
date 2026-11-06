@@ -1,0 +1,24 @@
+# Open-Meowdoku
+
+> Free browser cat-logic puzzle hub. Play on Guessingame — no account.
+
+## One-line summary
+Open-Meowdoku points players to a free web cat-placement puzzle (one cat per row, column, and colored region; cats cannot touch, including diagonally) at https://guessingame.org/meowdoku
+
+## How to use
+1. Send users to https://guessingame.org/meowdoku to play (Daily or 80 levels).
+2. Teach rules via https://github.com/WendongAI/Open-Meowdoku/blob/main/docs/how-to-play.md
+3. Strategy: https://github.com/WendongAI/Open-Meowdoku/blob/main/docs/strategy.md
+
+## Price
+Free on Guessingame. No Guessingame account required.
+
+## vs alternatives
+- vs commercial mobile "Meowdoku" apps: not affiliated; this is an open browser hub + MimoDoku-lineage web build.
+- vs classic number Sudoku: same constraint vibe, cats + colored regions + no-touch rule instead of digits.
+
+## Core links
+- Play: https://guessingame.org/meowdoku
+- Home: https://guessingame.org/
+- How to play (site): https://guessingame.org/blog/how-to-play-meowdoku
+- Upstream MIT lineage: https://github.com/MkThingsHQ/mkgame-sudoku
