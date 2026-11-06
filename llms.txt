@@ -17,8 +17,12 @@ Free on Guessingame. No Guessingame account required.
 - vs commercial mobile "Meowdoku" apps: not affiliated; this is an open browser hub + MimoDoku-lineage web build.
 - vs classic number Sudoku: same constraint vibe, cats + colored regions + no-touch rule instead of digits.
 
+## Markets (why these languages)
+Public mobile-category data concentrates downloads in US, Japan, Brazil; also strong TR/IN/KR/DE/ES/FR/RU visibility. See docs/markets.md. Localized READMEs: en, ja, pt-BR, zh-CN, zh-TW, ko, es, de, tr, fr, ru.
+
 ## Core links
 - Play: https://guessingame.org/meowdoku
 - Home: https://guessingame.org/
 - How to play (site): https://guessingame.org/blog/how-to-play-meowdoku
+- Multilingual intros: https://github.com/WendongAI/Open-Meowdoku#languages--语言--言語
 - Upstream MIT lineage: https://github.com/MkThingsHQ/mkgame-sudoku

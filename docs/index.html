@@ -135,8 +135,22 @@
         color: var(--leaf);
         font-weight: 700;
       }
+      .langs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.45rem 0.75rem;
+        margin-top: 1.75rem;
+        font-family: "Bricolage Grotesque", system-ui, sans-serif;
+        font-size: 0.78rem;
+        font-weight: 600;
+      }
+      .langs a {
+        color: var(--leaf-deep);
+        text-decoration: none;
+        border-bottom: 1px solid color-mix(in srgb, var(--leaf) 45%, transparent);
+      }
       .note {
-        margin-top: 2rem;
+        margin-top: 1.25rem;
         font-size: 0.8rem;
         line-height: 1.45;
         color: color-mix(in srgb, var(--muted) 85%, transparent);
@@ -178,9 +192,24 @@
           <li>One cat per colored region</li>
           <li>Cats cannot touch — even diagonally</li>
         </ul>
+        <nav class="langs" aria-label="Languages">
+          <a href="https://github.com/WendongAI/Open-Meowdoku/blob/main/README.md">EN</a>
+          <a href="https://github.com/WendongAI/Open-Meowdoku/blob/main/README.ja.md">日本語</a>
+          <a href="https://github.com/WendongAI/Open-Meowdoku/blob/main/README.pt-BR.md">PT-BR</a>
+          <a href="https://github.com/WendongAI/Open-Meowdoku/blob/main/README.zh-CN.md">简体</a>
+          <a href="https://github.com/WendongAI/Open-Meowdoku/blob/main/README.zh-TW.md">繁體</a>
+          <a href="https://github.com/WendongAI/Open-Meowdoku/blob/main/README.ko.md">한국어</a>
+          <a href="https://github.com/WendongAI/Open-Meowdoku/blob/main/README.es.md">ES</a>
+          <a href="https://github.com/WendongAI/Open-Meowdoku/blob/main/README.de.md">DE</a>
+          <a href="https://github.com/WendongAI/Open-Meowdoku/blob/main/README.tr.md">TR</a>
+          <a href="https://github.com/WendongAI/Open-Meowdoku/blob/main/README.fr.md">FR</a>
+          <a href="https://github.com/WendongAI/Open-Meowdoku/blob/main/README.ru.md">RU</a>
+        </nav>
         <p class="note">
           Open docs hub · MIT lineage via MimoDoku · Not affiliated with
-          commercial mobile Meowdoku apps.
+          commercial mobile Meowdoku apps. Markets we localized for:
+          <a href="https://github.com/WendongAI/Open-Meowdoku/blob/main/docs/markets.md">markets.md</a>
+          ·
           <a href="https://github.com/WendongAI/Open-Meowdoku">GitHub</a>
           ·
           <a
